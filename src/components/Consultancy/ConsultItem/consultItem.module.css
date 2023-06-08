@@ -1,0 +1,10 @@
+.datePickerInput {
+  background-color: #fff;
+  padding: 15px;
+  font-family: "Roboto Mono", monospace;
+  color: #1e3c72;
+  font-size: 18px;
+  border: 1px solid #1e3c72;
+  outline: none;
+  border-radius: 5px;
+}

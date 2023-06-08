@@ -1,0 +1,20 @@
+.controlMainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 0;
+}
+
+.datePickerInput {
+  background-color: transparent;
+  padding: 15px;
+  font-family: "Roboto Mono", monospace;
+  color: black;
+  font-size: 18px;
+  border: 1px solid #d8d8d8;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.homeHeroContainer{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.ControlBtnContainer{
+    background-color: violet;
+    padding: 0 6px;
+    max-width: 260px;
+}

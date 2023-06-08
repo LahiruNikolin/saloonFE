@@ -1,0 +1,57 @@
+.bookingDisplayMainContainer {
+  background-color: blueviolet;
+  height: 300px;
+}
+.bookingDisplayInnerContainer {
+  height: 100%;
+}
+
+.bookingDisplaySubContainer {
+  /* display: grid;
+  grid-template-columns: 2fr 6fr;
+  height: 100%;
+  overflow-y: scroll; */
+}
+
+.leftMainContainer {
+  /* background-color: red; */
+  height: 100%;
+}
+
+.rightMainContainer {
+  background-color: blue;
+  overflow-x: scroll;
+  height: 100%;
+  position: relative;
+}
+
+.timeLineContainer {
+  display: flex;
+  flex-grow: 1;
+  gap: 2px;
+  position: sticky;
+  top: 5px;
+  background-color: violet;
+}
+
+.timeSlot {
+  background-color: green;
+  display: inline-block;
+  padding: 10px 20px;
+  white-space: nowrap;
+}
+.scrollBarAssisterForRightMain {
+  min-height: 40px;
+  width: 100%;
+  background-color: yellow;
+  bottom: 0;
+  overflow-x: scroll;
+}
+
+.reservedIndicator {
+  min-height: 40px;
+  width: 100%;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}

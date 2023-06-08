@@ -1,0 +1,95 @@
+.consultDetailsContainer {
+  padding: 40px;
+}
+
+.entryInnerDataContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.openActCont {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.threeDotContainer {
+  height: 10px;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.threeDotContainer > span {
+  height: 6px;
+  width: 6px;
+  background-color: #d8d8d8;
+  border-radius: 3px;
+}
+.verticalLiner {
+  background-color: #d8d8d8;
+  height: 70px;
+  width: 2px;
+  position: relative;
+}
+
+.treatmentInstructedDataContainer {
+  height: 100%;
+  margin-top: 12px;
+}
+.treatmentOuterActiviesContainer {
+  display: flex;
+  align-items: center;
+  height: 150px;
+}
+
+.treatmentActiviesContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.treatmentSectionMarker {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #d8d8d8;
+  width: 2px;
+  position: relative;
+}
+.recomendDaysSection {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+.daysContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconContianer {
+  position: relative;
+  left: -10px;
+}
+.treatmentActiviesContainerAlt {
+  display: flex;
+  gap: 20px;
+  padding-left: 40px;
+}
+.treatmentActiviesRight {
+  display: flex;
+  flex-direction: column;
+}
+.participateCont {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.participatedContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.compareResultsContainer {
+  padding-top: 20px;
+}

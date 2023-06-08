@@ -1,0 +1,14 @@
+.summaryBoxMainContainer {
+  padding: 40px 0;
+}
+
+.summaryBoxContainer {
+  max-width: 800px;
+  margin: auto;
+  height: 300px;
+}
+
+.customCard {
+  height: 100%;
+  overflow-y: scroll !important;
+}
